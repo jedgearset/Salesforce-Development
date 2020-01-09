@@ -543,6 +543,15 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Do_you_want_to_add_diamonds__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Option to add diamonds.</description>
+        <externalId>false</externalId>
+        <label>Do you want to add diamonds?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
