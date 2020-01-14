@@ -594,6 +594,35 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Brand_of_TV__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand of TV?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LG</fullName>
+                    <default>false</default>
+                    <label>LG</label>
+                </value>
+                <value>
+                    <fullName>Samsung</fullName>
+                    <default>false</default>
+                    <label>Samsung</label>
+                </value>
+                <value>
+                    <fullName>Sony</fullName>
+                    <default>false</default>
+                    <label>Sony</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
