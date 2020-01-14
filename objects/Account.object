@@ -623,6 +623,14 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Time_of_purchase__c</fullName>
+        <externalId>false</externalId>
+        <label>Time of purchase?</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Time</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
