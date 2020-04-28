@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <userLicense>Salesforce</userLicense>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -79,7 +81,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -1795,7 +1796,6 @@
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
