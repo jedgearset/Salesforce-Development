@@ -257,6 +257,27 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>DiscountPercentage__c</fullName>
+        <externalId>false</externalId>
+        <formula>DiscountRate__c / 100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DiscountPercentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DiscountRate__c</fullName>
+        <externalId>false</externalId>
+        <label>DiscountRate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>DunsNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -358,29 +379,58 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Industry</controllingField>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
                     <fullName>Gold</fullName>
+                    <color>#F3D904</color>
                     <default>false</default>
                     <label>Gold</label>
                 </value>
                 <value>
                     <fullName>Silver</fullName>
+                    <color>#BBBBBB</color>
                     <default>false</default>
                     <label>Silver</label>
                 </value>
                 <value>
                     <fullName>Platinum</fullName>
+                    <color>#9999FF</color>
                     <default>false</default>
                     <label>Platinum</label>
                 </value>
                 <value>
                     <fullName>Bronze</fullName>
+                    <color>#A53711</color>
                     <default>false</default>
                     <label>Bronze</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Agriculture</controllingFieldValue>
+                <controllingFieldValue>Apparel</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Bronze</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Apparel</controllingFieldValue>
+                <controllingFieldValue>Banking</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Gold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Apparel</controllingFieldValue>
+                <controllingFieldValue>Banking</controllingFieldValue>
+                <controllingFieldValue>Biotechnology</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Silver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Banking</controllingFieldValue>
+                <controllingFieldValue>Chemicals</controllingFieldValue>
+                <valueName>Platinum</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
