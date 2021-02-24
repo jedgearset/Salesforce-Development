@@ -200,10 +200,10 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Gold</fullName>
-                    <color>#F3D904</color>
+                    <fullName>Blue</fullName>
+                    <color>#3366FF</color>
                     <default>false</default>
-                    <label>Gold</label>
+                    <label>Blue</label>
                 </value>
                 <value>
                     <fullName>Silver</fullName>
@@ -234,7 +234,7 @@
                 <controllingFieldValue>Apparel</controllingFieldValue>
                 <controllingFieldValue>Banking</controllingFieldValue>
                 <controllingFieldValue>Chemicals</controllingFieldValue>
-                <valueName>Gold</valueName>
+                <valueName>Blue</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Apparel</controllingFieldValue>
